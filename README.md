@@ -42,7 +42,9 @@ Please note that the thumbnail images must be in PNG format.
 Here are a few scripts for advanced users, or for implementing into your own scripts.
 
 [create-thumbnail.py](https://github.com/Dteyn/ZFBTool/blob/master/src/create-thumbnail.py)
+
 [extract-thumbnail.py](https://github.com/Dteyn/ZFBTool/blob/master/src/extract-thumbnail.py)
+
 [extract-all-thumbnails.py](https://github.com/Dteyn/ZFBTool/blob/master/src/extract-all-thumbnails.py)
 
 
