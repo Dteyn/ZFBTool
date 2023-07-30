@@ -59,6 +59,11 @@ The `.zfb` files used by the Data Frog SF2000 are custom files that include a th
 It's important to note that .zfb files for arcade games don't contain the actual game ROM, they only reference to it.
 
 
+## Credits
+
+Thank you to tzlion for the great work on [frogtool](https://github.com/tzlion/frogtool), and to the entire Data Frog SF2000 community. This script is only possible thanks to the information that tzlion posted here: https://github.com/tzlion/frogtool#technical-details
+
+
 ## Contact
 
 If you encounter any issues or have suggestions for improvements, feel free to open an issue on this repository.
