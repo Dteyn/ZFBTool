@@ -74,6 +74,8 @@ Here are a few scripts for advanced users, or for implementing into your own scr
 
 ## .ZFB File Format
 
+[based on tzlion's description here](https://github.com/tzlion/frogtool#technical-details)
+
 The `.zfb` files used by the Data Frog SF2000 are custom files that include a thumbnail image and references to a ROM file. Here's a brief overview of how these files are structured:
 
 - The first 0xEA00 bytes: This portion is reserved for a thumbnail image in RGB565 RAW format with dimensions of 144x208px.
