@@ -37,14 +37,58 @@ pip install tkinter Pillow
 Please note that the thumbnail images must be in PNG format.
 
 
+## Renaming .ZFB Files
+
+As of version 1.1, ZFBTool now supports renaming of .zfb files based on the data from the [clrmamepro .dat files] created by `adcockm` (https://github.com/vonmillhausen/sf2000/tree/main/arcade). Included are several .txt files:
+
+### ALL-INFO:
+Files: `fullset-romnames-all-info.txt` and `playable-romnames-all-info.txt`
+
+Entire description from clrmamepro data, with names sanitized for Windows filenames (ie: slashes converted to dashes, etc).
+
+### REGION-FULL:
+Files: `fullset-romnames-region-full.txt` and `playable-romnames-region-full.txt`
+
+Description from clrmamepro data with full region and set info. Anything after "/" (typically Japanese name) removed for brevity
+
+### REGION-SHORT:
+Files: `fullset-romnames-region-short.txt` and `playable-romnames-region-short.txt`
+
+Shortened region and set info, ex: (J) instead of (Japan), [p] [B] to denote prototype/bootleg, (copy 1) etc. used for copies
+
+### NO-INFO:
+Files: `fullset-romnames-no-info.txt` and `playable-romnames-no-info.txt`
+
+Only the name of the short game with no other information (except Gun.Smoke and Varth in playable set, to avoid duplicate filenames)
+WARNING: Use recommended only with the PLAYABLE set. FULL SET has many filename conflicts and is provided for reference only. 
+
 ## Advanced Users
 
 Here are a few scripts for advanced users, or for implementing into your own scripts.
 
 [create-thumbnail.py](https://github.com/Dteyn/ZFBTool/blob/master/src/create-thumbnail.py)
+
 [extract-thumbnail.py](https://github.com/Dteyn/ZFBTool/blob/master/src/extract-thumbnail.py)
+
 [extract-all-thumbnails.py](https://github.com/Dteyn/ZFBTool/blob/master/src/extract-all-thumbnails.py)
 
+## .ZFB File Format
+
+The `.zfb` files used by the Data Frog SF2000 are custom files that include a thumbnail image and references to a ROM file. Here's a brief overview of how these files are structured:
+
+- The first 0xEA00 bytes: This portion is reserved for a thumbnail image in RGB565 RAW format with dimensions of 144x208px.
+
+- The following bytes: This portion contains the actual filename of the ROM in the "bin" folder, preceded by four `00` bytes and followed by two further `00` bytes.
+
+It's important to note that .zfb files for arcade games don't contain the actual game ROM, they only reference to it.
+
+## Credits
+
+Thank you to tzlion for the great work on [frogtool](https://github.com/tzlion/frogtool), and to the entire Data Frog SF2000 community. This script is only possible thanks to the information that tzlion posted here: https://github.com/tzlion/frogtool#technical-details
+
+Thank you to EricGoldsteinNz for the great work on [tadpole](https://github.com/EricGoldsteinNz/tadpole), which is an excellent user interface to manage your SF2000 handheld system.
+
+Thank you also to Von Millhausen for his excellent repository of information on the SF2000, which can be found here: https://github.com/vonmillhausen/sf2000
 
 ## Contact
 
