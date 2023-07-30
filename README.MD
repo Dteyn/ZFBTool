@@ -21,7 +21,7 @@ pip install tkinter Pillow
 
 ## How to Use
 
-1. Download the `ZFBTool.pyw` file provided in the repository.
+1. Download [`ZFBTool-v1.1-python.zip`](https://github.com/Dteyn/ZFBTool/releases/download/v1.1/ZFBTool-v1.1-py.zip) and extract anywhere.
 2. Ensure you have Python and the necessary packages installed.
 3. Run the `ZFBTool.pyw` file, and you will see the GUI.
 4. In the GUI, you can either create a .zfb file from a single ROM or choose to compress an entire folder of ROMs.
@@ -39,7 +39,7 @@ Please note that the thumbnail images must be in PNG format.
 
 ## Renaming .ZFB Files
 
-As of version 1.1, ZFBTool now supports renaming of .zfb files based on the data from the [clrmamepro .dat files] created by `adcockm` (https://github.com/vonmillhausen/sf2000/tree/main/arcade). Included are several .txt files:
+As of [version 1.1](https://github.com/Dteyn/ZFBTool/releases/tag/v1.1), ZFBTool now supports renaming of .zfb files based on the data from the [clrmamepro .dat files] created by `adcockm` (https://github.com/vonmillhausen/sf2000/tree/main/arcade). Included are several .txt files:
 
 ### ALL-INFO:
 Files: `fullset-romnames-all-info.txt` and `playable-romnames-all-info.txt`
