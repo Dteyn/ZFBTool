@@ -21,7 +21,7 @@ pip install tkinter Pillow
 
 ## How to Use
 
-1. Download the `ZFBTool.pyw` file provided in the repository.
+1. Download [`ZFBTool-v1.0-python.zip`](https://github.com/Dteyn/ZFBTool/releases/download/v1.0/ZFBTool-v1.0-python.zip) and extract anywhere.
 2. Ensure you have Python and the necessary packages installed.
 3. Run the `ZFBTool.pyw` file, and you will see the GUI.
 4. In the GUI, you can either create a .zfb file from a single ROM or choose to compress an entire folder of ROMs.
@@ -62,6 +62,8 @@ It's important to note that .zfb files for arcade games don't contain the actual
 ## Credits
 
 Thank you to tzlion for the great work on [frogtool](https://github.com/tzlion/frogtool), and to the entire Data Frog SF2000 community. This script is only possible thanks to the information that tzlion posted here: https://github.com/tzlion/frogtool#technical-details
+
+Thank you to EricGoldsteinNz for the great work on [tadpole](https://github.com/EricGoldsteinNz/tadpole), which is an excellent user interface to manage your SF2000 game database.
 
 Thank you also to Von Millhausen for his excellent repository of information on the SF2000, which can be found here: https://github.com/vonmillhausen/sf2000
 
