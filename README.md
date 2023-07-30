@@ -48,6 +48,17 @@ Here are a few scripts for advanced users, or for implementing into your own scr
 [extract-all-thumbnails.py](https://github.com/Dteyn/ZFBTool/blob/master/src/extract-all-thumbnails.py)
 
 
+## .ZFB File Format
+
+The `.zfb` files used by the Data Frog SF2000 are custom files that include a thumbnail image and references to a ROM file. Here's a brief overview of how these files are structured:
+
+- The first 0xEA00 bytes: This portion is reserved for a thumbnail image in RGB565 RAW format with dimensions of 144x208px.
+
+- The following bytes: This portion contains the actual filename of the ROM in the "bin" folder, preceded by four `00` bytes and followed by two further `00` bytes.
+
+It's important to note that .zfb files for arcade games don't contain the actual game ROM, they only reference to it.
+
+
 ## Contact
 
 If you encounter any issues or have suggestions for improvements, feel free to open an issue on this repository.
