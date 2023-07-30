@@ -63,6 +63,7 @@ It's important to note that .zfb files for arcade games don't contain the actual
 
 Thank you to tzlion for the great work on [frogtool](https://github.com/tzlion/frogtool), and to the entire Data Frog SF2000 community. This script is only possible thanks to the information that tzlion posted here: https://github.com/tzlion/frogtool#technical-details
 
+Thank you also to Von Millhausen for his excellent repository of information on the SF2000, which can be found here: https://github.com/vonmillhausen/sf2000
 
 ## Contact
 
