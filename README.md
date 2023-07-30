@@ -1,6 +1,6 @@
 # ZFBTool
 
-ZFBTool is a utility specifically designed for the Data Frog SF2000 arcade system. It provides a user-friendly way to create .zfb files by pairing custom thumbnail images with game ROMs. It includes features for single-file processing and bulk processing from a selected folder. ZFBTool is a great tool for enhancing the SF2000 user experience by personalizing your game library.
+ZFBTool is a utility specifically designed for the Data Frog SF2000 retro handheld. It provides a user-friendly way to create .zfb files by pairing custom thumbnail images with game ROMs. It includes features for single-file processing and bulk processing from a selected folder. ZFBTool is a great tool for enhancing the SF2000 user experience by personalizing your game library.
 
 ## Features
 
