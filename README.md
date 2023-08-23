@@ -75,7 +75,7 @@ Here are a few scripts for advanced users, or for implementing into your own scr
 
 ## .ZFB File Format
 
-[based on tzlion's description here](https://github.com/tzlion/frogtool#technical-details)
+[based on taizou's description here](https://github.com/tzlion/frogtool#technical-details)
 
 The `.zfb` files used by the Data Frog SF2000 are custom files that include a thumbnail image and references to a ROM file. Here's a brief overview of how these files are structured:
 
@@ -87,7 +87,7 @@ It's important to note that .zfb files for arcade games don't contain the actual
 
 ## Credits
 
-Thank you to tzlion for the great work on [frogtool](https://github.com/tzlion/frogtool), and to the entire Data Frog SF2000 community. This script is only possible thanks to the information that tzlion posted here: https://github.com/tzlion/frogtool#technical-details
+Thank you to taizou for the great work on [frogtool](https://github.com/tzlion/frogtool), and to the entire Data Frog SF2000 community. This script is only possible thanks to the information that tzlion posted here: https://github.com/tzlion/frogtool#technical-details
 
 Thank you to EricGoldsteinNz for the great work on [tadpole](https://github.com/EricGoldsteinNz/tadpole), which is an excellent user interface to manage your SF2000 handheld system.
 
