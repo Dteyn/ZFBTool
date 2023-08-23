@@ -8,7 +8,9 @@ ZFBTool is a utility specifically designed for the Data Frog SF2000 arcade syste
 - Add custom thumbnail images for each ROM
 - Single file and bulk processing capabilities
 
-## Required Python Packages
+## Dependencies
+
+The following package is required:
 
 - PIL
 
@@ -21,7 +23,7 @@ pip install Pillow
 ## How to Use
 
 1. Download [`ZFBTool-v1.1-python.zip`](https://github.com/Dteyn/ZFBTool/releases/download/v1.1/ZFBTool-v1.1-py.zip) and extract anywhere.
-2. Ensure you have Python and the necessary packages installed.
+2. Ensure you have Python and the 'Pillow' package installed (see above).
 3. Run the `ZFBTool.pyw` file, and you will see the GUI.
 4. In the GUI, you can either create a .zfb file from a single ROM or choose to compress an entire folder of ROMs.
     - For a single ROM, input your PNG file and the name of your ROM file. Then click "Create ZFB File".
