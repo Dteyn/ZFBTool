@@ -10,13 +10,12 @@ ZFBTool is a utility specifically designed for the Data Frog SF2000 arcade syste
 
 ## Required Python Packages
 
-- tkinter
 - PIL
 
-You can install these packages using pip:
+You can install this package using pip:
 
 ```
-pip install tkinter Pillow
+pip install Pillow
 ```
 
 ## How to Use
