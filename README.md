@@ -96,3 +96,5 @@ Thank you also to Von Millhausen for his excellent repository of information on 
 ## Contact
 
 If you encounter any issues or have suggestions for improvements, feel free to open an issue on this repository.
+
+You are visitor: ![Page views](https://dteyn-rad-page.netlify.app/.netlify/functions/pageviews?repo=ZFBTool)
